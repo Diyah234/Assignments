@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration </title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>SIGN UP</h1>
+    <p>To create a new account</p>
+    <form action="./success.html" > 
+        <label for="fname" class="form">First name
+            <input type="text" id="fname" required>
+        </label> <br>
+        <label for="lname" class="form">Last name
+            <input type="text" name="lname" required>
+        </label> <br>
+        <label for="number" class="form">Phone Number
+            <input type="number" name="number" required>
+        </label><br>
+        <label for="email" class="form">Email
+            <input type="email" name="email" required>
+        </label><br>
+        <label for="gender" >Gender
+        <input type="radio" value="Male" class="gender"name="gender"  checked>Male
+        <input type="radio" value="Female" class="gender"name="gender" >Female
+        </label><br>
+        <div class="subForm">
+            <label for="dob">Date of Birth
+                <input type="date" name="dob" required>
+            </label><br>
+            <label for="color">Favorite color 
+                <input type="color" name="color" >
+            </label>
+        </div>
+        <input type="submit" value="Registration" class="register">
+    </form>
+    <p>Already have an account ? <a href="./login.html" class="register">Login</a> </p>
+</body>
+</html>

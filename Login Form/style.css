@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+}
+form{
+    width: 400px;
+    margin: 0 auto 0 auto;
+}
+
+h1, p {
+    margin-left: 45%;
+}
+.head {
+    margin-left: 40%;
+}
+ .gender {
+       justify-items: center;
+       width: 100px;
+       height: 20px;
+       padding-right: 50%;
+       margin-bottom: 20px;
+}
+.subForm{
+    width: 200px;
+}
+input{
+    width: 100%;
+    border-radius: 8px;
+    height: 2em;
+    padding: 5px;
+}
+.register {
+    height: 40px;
+    background-color: rgb(4, 4, 112);
+    color: white;
+    
+}
